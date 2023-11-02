@@ -15,13 +15,6 @@ app.get("/home", (req, res) => {
 // Rutas
 app.use("/", filmsRoutes)
 
-// Lanzar el codigo y mensaje de error
-app.use(({ statusCode, error }, req, res, next) => {
-    res.status(statusCode).json({
-        success: false,
-        message: error.message,
-    })
-})
 
 // Última ruta por defecto. En caso de no encotrarse ninguna anterior, devolvemos un 404
 app.get("*", (req,res) => { 
