@@ -1,0 +1,27 @@
+{
+  "name": "filmapi_withexpress",
+  "version": "1.0.0",
+  "description": "Film API using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioMangado/FilmAPI_withExpress.git"
+  },
+  "author": "Antonio Mangado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioMangado/FilmAPI_withExpress/issues"
+  },
+  "homepage": "https://github.com/AntonioMangado/FilmAPI_withExpress#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
